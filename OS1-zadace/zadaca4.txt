@@ -1,0 +1,5 @@
+nix@sandbox:~$ mkdir vjezba4 && mkdir vjezba4/subfolder
+nix@sandbox:~$ touch vjezba4/$HOSTNAME
+nix@sandbox:~$ mv vjezba4/$HOSTNAME vjezba4/$USER
+nix@sandbox:~$ mv vjezba4/$USER vjezba4/subfolder
+nix@sandbox:~$ rm /home/nix/vjezba4/subfolder/$USER

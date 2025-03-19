@@ -1,0 +1,6 @@
+nix@sandbox:~$ mkdir vjezba3 && mkdir vjezba3/backup
+nix@sandbox:~$ touch vjezba3/notes.txt && touch vjezba3/todo.txt && touch vjezba3/script.sh
+nix@sandbox:~$ cp vjezba3/notes.txt vjezba3/backup && cp vjezba3/todo.txt vjezba3/backup && cp vjezba3/script.sh vjezba3/backup
+nix@sandbox:~$ rm vjezba3/script.sh && ls vjezba3
+nix@sandbox:~$ mkdir vjezba3/backup/$USER
+nix@sandbox:~$ mv vjezba3/backup/notes.txt vjezba3/backup/$USER && mv vjezba3/backup/todo.txt vjezba3/backup/$USER && mv vjezba3/backup/script.sh vjezba3/backup/$USER

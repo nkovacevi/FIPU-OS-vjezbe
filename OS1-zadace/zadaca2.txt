@@ -1,0 +1,6 @@
+nix@sandbox:~$ mkdir vjezba2 && touch vjezba2/file.txt
+nix@sandbox:~$ cp vjezba2/file.txt vjezba2/file_copy.txt
+nix@sandbox:~$ ls vjezba2
+nix@sandbox:~$ rm vjezba2/file.txt && cd ~
+nix@sandbox:~$ rmdir vjezba2
+rmdir: failed to remove 'vjezba2': Directory not empty

@@ -1,1 +1,6 @@
-"Hello world"
+nix@sandbox:~$ pwd
+nix@sandbox:~$ ls
+nix@sandbox:~$ mkdir vjezba1 && cd vjezba1
+nix@sandbox:~/vjezba1$
+nix@sandbox:~/vjezba1$ touch README.md
+nix@sandbox:~/vjezba1$ cd ~
